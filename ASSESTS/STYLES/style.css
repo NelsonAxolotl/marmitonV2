@@ -49,10 +49,10 @@ main {
 
     opacity: 0;
     transform: translateX(1000px);
-    animation: slide1 1.5s forwards;
+    animation: slideh1 1.5s forwards;
 }
 
-@keyframes slide1 {
+@keyframes slideh1 {
     to {
         transform: translateX(0);
         opacity: 1
@@ -94,11 +94,11 @@ main {
 .slide-special {
     opacity: 0;
     transform: translateY(-1000px);
-    animation: slideicon 1.7s forwards;
+    animation: slide-special 1.7s forwards;
     animation-delay: 0.7s;
 }
 
-@keyframes slideicon {
+@keyframes slide-special {
     to {
         transform: translateY(0);
         opacity: 1;
