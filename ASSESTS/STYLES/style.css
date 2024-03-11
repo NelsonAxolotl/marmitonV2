@@ -35,6 +35,7 @@ main {
     background: white;
     border-radius: 20px;
     margin-top: 60px;
+
 }
 
 .title h1 {
@@ -44,9 +45,37 @@ main {
     padding: 50px 0;
 }
 
+.slideh1 {
+
+    opacity: 0;
+    transform: translateX(1000px);
+    animation: slide1 1.5s forwards;
+}
+
+@keyframes slide1 {
+    to {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
 .title p {
     line-height: 22px;
     padding-bottom: 30px;
+}
+
+.slideP {
+    opacity: 0;
+    transform: translateX(-1000px);
+    animation: slideP 1.5s forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes slideP {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .special {
@@ -60,6 +89,20 @@ main {
 .special p {
     padding: 10px 0;
     color: white;
+}
+
+.slide-special {
+    opacity: 0;
+    transform: translateY(-1000px);
+    animation: slideicon 1.7s forwards;
+    animation-delay: 0.7s;
+}
+
+@keyframes slideicon {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .section-1 {
