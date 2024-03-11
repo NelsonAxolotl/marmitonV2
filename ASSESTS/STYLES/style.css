@@ -69,7 +69,7 @@ main {
 }
 
 .picture img {
-    object-fit: cover;
+    object-fit: cover center;
     width: 320px;
     height: 200px;
     padding: 0 20px;
@@ -110,6 +110,7 @@ main {
 .prep p {
     line-height: 22px;
     margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 footer {
