@@ -10,16 +10,10 @@ body {
     font-size: 16px;
 }
 
-.container {
-    max-width: 1024px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 header {
     background: white;
     border-bottom: 1px solid #f3735f;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .logo {
@@ -29,6 +23,12 @@ header {
 
 .logo img {
     width: 200px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 main {
@@ -61,7 +61,7 @@ main {
 
 .title p {
     line-height: 22px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .slideP {
@@ -113,14 +113,14 @@ main {
 
 .picture img {
     object-fit: cover center;
-    width: 320px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     padding: 0 20px;
-    border-radius: 10%;
+    border-radius: 12%;
 }
 
 .section-2 {
-    margin: 50px;
+    margin: 70px;
     text-align: left;
 }
 
@@ -135,12 +135,13 @@ main {
 .liste ul li {
     list-style: disc;
     padding: 5px;
-    margin-left: 15px;
+    margin-left: 25px;
+    line-height: 25px;
 }
 
 .section-3 {
     text-align: left;
-    margin: 50px;
+    margin: 70px;
     padding-bottom: 30px;
 }
 
@@ -148,6 +149,7 @@ main {
     font-size: 18px;
     font-weight: bold;
     color: #393c6c;
+    line-height: 22px;
 }
 
 .prep p {
