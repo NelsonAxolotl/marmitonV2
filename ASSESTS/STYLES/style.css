@@ -115,7 +115,7 @@ main {
     object-fit: cover center;
     width: 330px;
     height: 250px;
-    padding: 0 15px;
+    padding: 0 10px;
     border-radius: 12%;
 }
 
